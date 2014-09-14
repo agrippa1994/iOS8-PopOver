@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A343f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -51,7 +50,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QyC-rE-wdy">
-                                <rect key="frame" x="16" y="289" width="568" height="21"/>
+                                <rect key="frame" x="280" y="290" width="41" height="20"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -59,14 +58,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ypT-5i-2DR" firstAttribute="top" secondItem="QyC-rE-wdy" secondAttribute="bottom" constant="290" id="7Oz-Vv-oil"/>
-                            <constraint firstItem="QyC-rE-wdy" firstAttribute="trailing" secondItem="LvS-Iv-qeR" secondAttribute="trailingMargin" id="yHJ-a0-ECv"/>
-                            <constraint firstItem="QyC-rE-wdy" firstAttribute="top" secondItem="YET-zO-nQE" secondAttribute="bottom" constant="269" id="yVL-oq-eE6"/>
-                            <constraint firstItem="QyC-rE-wdy" firstAttribute="leading" secondItem="LvS-Iv-qeR" secondAttribute="leadingMargin" id="zzJ-R7-ZRQ"/>
+                            <constraint firstAttribute="centerY" secondItem="QyC-rE-wdy" secondAttribute="centerY" id="Gx5-af-w4p"/>
+                            <constraint firstAttribute="centerX" secondItem="QyC-rE-wdy" secondAttribute="centerX" id="Ysm-Ie-Tm2"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="mainLabel" destination="QyC-rE-wdy" id="noU-pT-LzS"/>
+                        <outlet property="mainLabel" destination="QyC-rE-wdy" id="k3D-bd-vxN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FqF-MC-OiN" userLabel="First Responder" sceneMemberID="firstResponder"/>

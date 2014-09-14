@@ -14,6 +14,8 @@ class ViewController: UIViewController, UIPopoverPresentationControllerDelegate
     {
         if let viewController = self.storyboard?.instantiateViewControllerWithIdentifier("popover") as? PopOverViewController {
             
+            viewController.text = text
+            
             let navController = UINavigationController(rootViewController: viewController)
             navController.modalPresentationStyle = .Popover
             
@@ -24,7 +26,6 @@ class ViewController: UIViewController, UIPopoverPresentationControllerDelegate
                 pctrl.sourceRect = base.bounds
                 
                 self.presentViewController(navController, animated: true, completion: nil)
-                viewController.text = text
             }
         }
     }
