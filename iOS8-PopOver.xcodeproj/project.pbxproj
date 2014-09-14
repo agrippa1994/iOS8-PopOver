@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C7AAC7C19C4CDA80058A42F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7AAC7B19C4CDA80058A42F /* AppDelegate.swift */; };
+		3C7AAC7E19C4CDA80058A42F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7AAC7D19C4CDA80058A42F /* ViewController.swift */; };
+		3C7AAC8119C4CDA80058A42F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C7AAC7F19C4CDA80058A42F /* Main.storyboard */; };
+		3C7AAC8319C4CDA80058A42F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C7AAC8219C4CDA80058A42F /* Images.xcassets */; };
+		3C7AAC9219C4CDA80058A42F /* iOS8_PopOverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7AAC9119C4CDA80058A42F /* iOS8_PopOverTests.swift */; };
+		3C7AAC9C19C4CF9C0058A42F /* PopOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7AAC9B19C4CF9C0058A42F /* PopOverViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C7AAC8C19C4CDA80058A42F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C7AAC6E19C4CDA80058A42F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C7AAC7519C4CDA80058A42F;
+			remoteInfo = "iOS8-PopOver";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C7AAC7619C4CDA80058A42F /* iOS8-PopOver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS8-PopOver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7AAC7A19C4CDA80058A42F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C7AAC7B19C4CDA80058A42F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C7AAC7D19C4CDA80058A42F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C7AAC8019C4CDA80058A42F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C7AAC8219C4CDA80058A42F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3C7AAC8B19C4CDA80058A42F /* iOS8-PopOverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS8-PopOverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7AAC9019C4CDA80058A42F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C7AAC9119C4CDA80058A42F /* iOS8_PopOverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS8_PopOverTests.swift; sourceTree = "<group>"; };
+		3C7AAC9B19C4CF9C0058A42F /* PopOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopOverViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C7AAC7319C4CDA80058A42F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7AAC8819C4CDA80058A42F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C7AAC6D19C4CDA80058A42F = {
+			isa = PBXGroup;
+			children = (
+				3C7AAC7819C4CDA80058A42F /* iOS8-PopOver */,
+				3C7AAC8E19C4CDA80058A42F /* iOS8-PopOverTests */,
+				3C7AAC7719C4CDA80058A42F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C7AAC7719C4CDA80058A42F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C7AAC7619C4CDA80058A42F /* iOS8-PopOver.app */,
+				3C7AAC8B19C4CDA80058A42F /* iOS8-PopOverTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C7AAC7819C4CDA80058A42F /* iOS8-PopOver */ = {
+			isa = PBXGroup;
+			children = (
+				3C7AAC7B19C4CDA80058A42F /* AppDelegate.swift */,
+				3C7AAC7D19C4CDA80058A42F /* ViewController.swift */,
+				3C7AAC7F19C4CDA80058A42F /* Main.storyboard */,
+				3C7AAC8219C4CDA80058A42F /* Images.xcassets */,
+				3C7AAC7919C4CDA80058A42F /* Supporting Files */,
+				3C7AAC9B19C4CF9C0058A42F /* PopOverViewController.swift */,
+			);
+			path = "iOS8-PopOver";
+			sourceTree = "<group>";
+		};
+		3C7AAC7919C4CDA80058A42F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C7AAC7A19C4CDA80058A42F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C7AAC8E19C4CDA80058A42F /* iOS8-PopOverTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C7AAC9119C4CDA80058A42F /* iOS8_PopOverTests.swift */,
+				3C7AAC8F19C4CDA80058A42F /* Supporting Files */,
+			);
+			path = "iOS8-PopOverTests";
+			sourceTree = "<group>";
+		};
+		3C7AAC8F19C4CDA80058A42F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C7AAC9019C4CDA80058A42F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C7AAC7519C4CDA80058A42F /* iOS8-PopOver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C7AAC9519C4CDA80058A42F /* Build configuration list for PBXNativeTarget "iOS8-PopOver" */;
+			buildPhases = (
+				3C7AAC7219C4CDA80058A42F /* Sources */,
+				3C7AAC7319C4CDA80058A42F /* Frameworks */,
+				3C7AAC7419C4CDA80058A42F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS8-PopOver";
+			productName = "iOS8-PopOver";
+			productReference = 3C7AAC7619C4CDA80058A42F /* iOS8-PopOver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C7AAC8A19C4CDA80058A42F /* iOS8-PopOverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C7AAC9819C4CDA80058A42F /* Build configuration list for PBXNativeTarget "iOS8-PopOverTests" */;
+			buildPhases = (
+				3C7AAC8719C4CDA80058A42F /* Sources */,
+				3C7AAC8819C4CDA80058A42F /* Frameworks */,
+				3C7AAC8919C4CDA80058A42F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C7AAC8D19C4CDA80058A42F /* PBXTargetDependency */,
+			);
+			name = "iOS8-PopOverTests";
+			productName = "iOS8-PopOverTests";
+			productReference = 3C7AAC8B19C4CDA80058A42F /* iOS8-PopOverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C7AAC6E19C4CDA80058A42F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Mani;
+				TargetAttributes = {
+					3C7AAC7519C4CDA80058A42F = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					3C7AAC8A19C4CDA80058A42F = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 3C7AAC7519C4CDA80058A42F;
+					};
+				};
+			};
+			buildConfigurationList = 3C7AAC7119C4CDA80058A42F /* Build configuration list for PBXProject "iOS8-PopOver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C7AAC6D19C4CDA80058A42F;
+			productRefGroup = 3C7AAC7719C4CDA80058A42F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C7AAC7519C4CDA80058A42F /* iOS8-PopOver */,
+				3C7AAC8A19C4CDA80058A42F /* iOS8-PopOverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C7AAC7419C4CDA80058A42F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7AAC8119C4CDA80058A42F /* Main.storyboard in Resources */,
+				3C7AAC8319C4CDA80058A42F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7AAC8919C4CDA80058A42F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C7AAC7219C4CDA80058A42F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7AAC7E19C4CDA80058A42F /* ViewController.swift in Sources */,
+				3C7AAC7C19C4CDA80058A42F /* AppDelegate.swift in Sources */,
+				3C7AAC9C19C4CF9C0058A42F /* PopOverViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7AAC8719C4CDA80058A42F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7AAC9219C4CDA80058A42F /* iOS8_PopOverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C7AAC8D19C4CDA80058A42F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C7AAC7519C4CDA80058A42F /* iOS8-PopOver */;
+			targetProxy = 3C7AAC8C19C4CDA80058A42F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C7AAC7F19C4CDA80058A42F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C7AAC8019C4CDA80058A42F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C7AAC9319C4CDA80058A42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C7AAC9419C4CDA80058A42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C7AAC9619C4CDA80058A42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS8-PopOver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C7AAC9719C4CDA80058A42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS8-PopOver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3C7AAC9919C4CDA80058A42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS8-PopOverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS8-PopOver.app/iOS8-PopOver";
+			};
+			name = Debug;
+		};
+		3C7AAC9A19C4CDA80058A42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS8-PopOverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS8-PopOver.app/iOS8-PopOver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C7AAC7119C4CDA80058A42F /* Build configuration list for PBXProject "iOS8-PopOver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C7AAC9319C4CDA80058A42F /* Debug */,
+				3C7AAC9419C4CDA80058A42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C7AAC9519C4CDA80058A42F /* Build configuration list for PBXNativeTarget "iOS8-PopOver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C7AAC9619C4CDA80058A42F /* Debug */,
+				3C7AAC9719C4CDA80058A42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C7AAC9819C4CDA80058A42F /* Build configuration list for PBXNativeTarget "iOS8-PopOverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C7AAC9919C4CDA80058A42F /* Debug */,
+				3C7AAC9A19C4CDA80058A42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C7AAC6E19C4CDA80058A42F /* Project object */;
+}
